@@ -190,7 +190,7 @@ def main():
     st.latex(r"v_{t+1} = \mu \cdot v_t - \alpha \cdot \nabla J(\theta_t)")
     st.latex(r"\theta_{t+1} = \theta_t + v_{t+1}")
 
-    file_ = open("C:/Users/Viraj/Downloads/animation_1.gif", "rb")
+    file_ = open("/media/animation_1.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
