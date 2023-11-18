@@ -670,7 +670,7 @@ def main():
     learning_rate = st.slider("Learning Rate", 0.01, 0.99, 0.5, step=0.01)
 
     st.subheader("Optimization Animation")
-    st.video(f"C:/Users/Viraj/Downloads/my_files/content/optimization_animation_lr_{learning_rate:.2f}.mp4")
+    st.video(f"/media/{learning_rate:.2f}.mp4")
 
 if __name__ == "__main__":
     main()
