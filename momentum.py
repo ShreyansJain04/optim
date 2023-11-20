@@ -76,5 +76,5 @@ def main():
     line.set_data([st.session_state.x_param], [function(st.session_state.x_param)])
     st.pyplot(fig)
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
