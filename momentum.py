@@ -21,7 +21,7 @@ def header_2(x):
     return s, c
 
 def main():
-    st.title("Velocity and Gradient Vectors")
+    st.title("Velocity Vector")
 
     # Input for initial parameter, learning rate, and momentum
     initial_x = st.text_input("Initial X:", "2.0")
